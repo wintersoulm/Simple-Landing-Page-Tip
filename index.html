@@ -4,30 +4,34 @@
     <meta charset='utf-8'>
     <title>Thrissur Info Park</title>
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="style1.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <div class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-evenly ">
-        <div class="container-fluid bg-dark ">
+    <div class="navbar navbar-expand-lg navbar-dark bg-light ">
+        <div class="container-fluid bg-light ">
             <div class="row offcanvas-header">
                 <div class="navbar-brand col-lg-1 offset-.2 justify-content-evenly" style= "padding-left: 30px; ">
                 <img src="images/logo.png" width="40px" height="60px"  alt="logo">
                 </div>"
             </div> 
                 <button class="navbar-toggler justify-content-evenly " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon bg-primary" style="color: palevioletred;"></span>
                   </button>
                   <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav justify-content-between col-3">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      <a class="nav-link" href="#">Features</a>
-                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="nav-link active" style="color:palevioletred;" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" style="color:palevioletred;" href="#">Features</a>
+                      <a class="nav-link" style="color:palevioletred;" href="#">Pricing</a>
                       <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
                     </div>
                 </div>   
         </div>
     </div>
-    <div class="container-fluid >" style=" padding-top: 40px; padding-bottom: 40px; height: 400px; margin-bottom: 20px; background-image: url(https://www.lawpreptutorial.com/wp-content/uploads/2020/07/1500x500.jpg);">
+    <div class="container-fluid >" style=" padding-top: 40px; padding-bottom: 40px; height: 400px; background-image: url(https://www.lawpreptutorial.com/wp-content/uploads/2020/07/1500x500.jpg);">
         <div class="row">
             <div class="col-md-12" style="margin-top: 30px; margin-left: 250px;padding-left: 30px;padding-top: 30px;">
                 <hl style="font-size: 30px; font-weight: 700; color:antiquewhite ;">Coworking Crafted for Thrissur</hl>
@@ -36,10 +40,45 @@
                 <h6 style="font-weight: 600px;">A flexible workspace solution for startups and  freelancers in Thrissur 
                 </h6>
             </div>
-            <div class="col-md-12" style="margin-top: 10px; margin-left: 250px;padding-left: 30px;padding-top: 10px; color: antiquewhite;">
+            <div class="col-md-12" style="margin-top: 10px; margin-left: 250px;margin-bottom: 0px; padding-left: 30px;padding-top: 10px; color: antiquewhite;">
                 <h6 style="font-weight: 600px;">
                     Thrissur IT park is the one-stop solution for dedicated desks, private <br>offices, meetingrooms, and event spaces in Thrissur.  
                 </h6>
+            </div>
+        </div>
+    </div>
+    <div class="container-lg d-flex >" style="padding-bottom: 40px; height: 400px; margin-bottom: 20px; ">
+        <div class="row">
+            <div class="col-md-12" style="margin-top: 30px; margin-left: 30px;padding-left: 570px; padding-top: 30px;">
+                <hl style="font-size: 30px; font-weight: 700; color:grey ;">Carousel</hl>
+            </div>
+            <div class="col-md-11" style="margin-top: 20px; margin-left: 100px;padding-left: 30px;padding-top: 30px;" >
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators" style="justify-content: center;">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner"; style="width: 1080px; height: 420px; padding-bottom: 20px; margin-bottom: 20px; border-radius: 20px;" ">
+                      <div class="carousel-item active">
+                        <img src="images/carouselbg1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/carosuelbg2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/carouselbg3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="justify-content: space-between;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
         </div>
     </div>
