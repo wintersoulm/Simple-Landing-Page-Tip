@@ -1,0 +1,37 @@
+.tile1{
+    border-radius: 20px;width: 307px;height: 450px;padding: 20px; background-color: white; height: 400px;
+}
+.tileheader{
+    margin-left: 200px; font-size: 30px; font-weight: 700; color:antiquewhite ;
+}
+
+.tilesub{
+    margin-top: 40px; margin-left: 220px; font-weight: 600px;
+}
+.tiledisc{
+    margin-bottom: 5px; margin-left: 220px;margin-top: 50px;font-weight: 600px;
+}
+.formheader{
+    font-size: 20px; color:black;font-weight: 700;padding-left: 95px;
+}
+.formsub{
+    font-weight: 500;font-size: 12px; text-align: center;
+}
+.carouselcontainer{
+    padding-top: 20px; padding-bottom: 40px; height: 600px; margin-bottom: 30px; margin-top: 200px; align-items: center;
+}
+
+.carouselheader{
+    font-size: 30px; font-weight: 700 ;padding-left: 400px ;justify-self:center
+}
+.carouselsub{
+    font-weight: 700; color:grey ;padding-left: 380px;justify-self: center;
+}
+
+#carouselcontainer{
+    padding-top: 20px; padding-bottom: 40px; height: 600px; margin-bottom: 30px; margin-top: 200px; align-items: center;
+}
+
+#carouselstyler{
+    margin-left: 120px;padding-left: 30px;padding-top: 30px; width: 1080px;
+}
